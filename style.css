@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+    width: 100%;
+    height:100%;
+    background-image: url(background1.jpg);
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.form-box{
+    width: 30rem; 
+
+    height: 37rem; 
+
+    position: relative; 
+
+    background: rgba(255, 255, 255, 0.8); 
+
+    border-radius: 2.188rem; 
+
+    box-shadow: -1px 3px 33px -3px rgba(0,0,0,0.69); 
+
+    -webkit-box-shadow: -1px 3px 33px -3px rgba(0,0,0,0.69); 
+
+    -moz-box-shadow: -1px 3px 33px -3px rgba(0,0,0,0.69); 
+
+     margin: 6% auto;
+
+     padding-top: 1rem;
+     
+     overflow: hidden;
+
+     
+     
+     
+}
+
+.button-box{
+    width: 14rem;
+    margin: 2rem auto ;
+
+    position: relative;
+
+    box-shadow: -1px 1px 16px 0px rgba(0,0,0,0.62);
+-webkit-box-shadow: -1px 1px 16px 0px rgba(0,0,0,0.62);
+-moz-box-shadow: -1px 1px 16px 0px rgba(0,0,0,0.62);
+
+border-radius: 2rem;
+
+
+}
+
+.toogle-btn{
+    position: relative;
+    padding: 1.2rem 2rem;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 0.7rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#btn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 7rem;
+    height: 100%;
+    border-radius: 2rem;
+    background: rgb(245,221,49);
+background: linear-gradient(90deg, rgba(245,221,49,1) 38%, rgba(255,255,255,1) 100%);
+transition: 0.5s;
+
+}
+
+.button-box button:nth-child(2){
+    color:black;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.social-icons lottie-player{
+width: 3rem;
+cursor: pointer;
+
+}
+.input-group{
+    position: absolute;
+    top: 15rem;
+    width: 20rem;
+    transition: .5s;
+    margin: auto;
+    margin-left: 1rem;
+    
+}
+
+.input-field{
+    width: 100%;
+    padding: 1rem 0;
+    border: none;
+    margin: 0.3rem 0; 
+    background: transparent;
+    border-bottom: 2px solid  rgba(153, 153, 153, 0.705);
+    outline: none;
+
+}
+
+.submit-btn{
+display: block;
+width: 85%;
+padding: 0.625rem;
+border: none;
+background: rgb(245,221,49);
+background: linear-gradient(90deg, rgba(245,221,49,1) 38%, rgba(255,255,255,1) 100%);
+border-radius:2rem ;
+cursor: pointer;
+color:black ;
+font-size: 1.2rem;
+font-weight: 600;
+margin: auto;
+outline: none;
+
+
+}
+
+.input-group a{
+    display: inline-block;
+    text-decoration: none;
+    color: #001922 ;
+    margin: 1rem 0.6rem 1rem 0rem;
+    font-size: 1rem;
+
+}
+
+#LOGIN{
+    left: 3rem;
+
+}
+
+#Register{
+    left: 31rem;
+    
+    
+}
+
+.input-Terms{
+    font-size: 100rem;
+}
